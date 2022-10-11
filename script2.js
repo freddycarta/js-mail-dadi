@@ -1,12 +1,10 @@
-// const buttonElement = document.getElementById('play')
+const buttonElement = document.getElementById('play')
+// console.log(buttonElement)
 
-// buttonElement.addEventListener('click', function() {
-//     console.log('click button')
+buttonElement.addEventListener('click', function(){
+    // console.log('click button')
 
-    
-// })
-
-const dadoutente = Math.floor(Math.random() * 6) + 1
+    const dadoutente = Math.floor(Math.random() * 6) + 1
 console.log (dadoutente)
 
 const dadoPC = Math.floor(Math.random() * 6) + 1
@@ -15,9 +13,14 @@ const dadoPC = Math.floor(Math.random() * 6) + 1
 let messaggio ='pareggio';
 
 if (dadoutente > dadoPC) {
-    messaggio = 'hai vinto'
+    messaggio = 'hai vinto utente'
 } else if (dadoutente < dadoPC) {
-    messaggio = 'hai perso'
+    messaggio = 'ha vinto il pc'
 }
 
 console.log(messaggio)
+})
+
+
+
+
