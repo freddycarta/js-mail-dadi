@@ -21,7 +21,7 @@ for (let i = 0; i < MailList.length; i++) {
 
     // console.log(RispostaMail)
     if (mail === RispostaMail) {
-        
+        console.log('la mail è presente', mail, RispostaMail,)
         outputMessage = 'La mail è presente'
     }
 }
